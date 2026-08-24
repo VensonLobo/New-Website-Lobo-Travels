@@ -1,0 +1,6 @@
+{
+  "name": "Lobo Travels",
+  "description": "A premium, trust-driven Indian travel agency specializing in custom-curated journeys across India's premier mountain, heritage, spiritual, and honeymoon circuits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

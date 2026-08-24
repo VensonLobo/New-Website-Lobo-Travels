@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  
+  .font-brand {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4EFEA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C4B5A5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9A8875;
+}
+
+/* Glassmorphic and subtle elevation tokens */
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(11, 27, 54, 0.4) 0%, rgba(11, 27, 54, 0.7) 60%, rgba(11, 27, 54, 0.95) 100%);
+}
+
+.gold-shimmer {
+  background: linear-gradient(135deg, #C5A059 0%, #DFCA95 50%, #B89248 100%);
+}
+
